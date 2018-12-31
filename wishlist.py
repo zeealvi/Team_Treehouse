@@ -34,4 +34,3 @@ def display_wishlist (display_name, wishes):
 display_wishlist("Books", books)
 display_wishlist("Video Games", video_games)
 
-print("Test")
