@@ -1,9 +1,11 @@
-Ticket_Price = 10
+Ticket_Price_box = 100
+Ticket_Price= 10
 Service_Charge = 2
 tickets_remaining = 100
 
 def calculate_price (num_of_tickets):
-    return num_of_tickets * Ticket_Price + Service_Charge
+    return (num_of_tickets * Ticket_Price) + (number_tickets * Ticket_Price_box) + Service_Charge
+
 
 while tickets_remaining >= 1:
 
